@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microserice-eureka-order" />
+        <module name="microservice-eureka-feign" />
+        <module name="microservice-eureka-hystrix" />
+        <module name="microservice-eureka-ribbon" />
+        <module name="microservice-eureka-server" />
+        <module name="microservice-eureka-user" />
+        <module name="microservice-hystrix-dashboard" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

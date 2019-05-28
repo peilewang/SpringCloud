@@ -1,0 +1,13 @@
+
+server:
+  port: 8762
+eureka:
+  instance:
+    hostname: server2 # 指定当profile=peer1时，主机名
+  client:
+   fetch-registry: false # 一定要设置为true或者不写，否则会出现unavailable-replicas
+   register-with-eureka: false # 一定要设置为true或者不写，否则会出现unavailable-replicas
+   serviceUrl:
+      defaultZone: http://server:8761/eureka/ # 将⾃⼰注册到peer2这个Eureka上⾯去
+
+

@@ -1,0 +1,11 @@
+
+server:
+  port: 8761
+eureka:
+ instance:
+   hostname: server
+ client:
+   fetch-registry: false # 一定要设置为true或者不写，否则会出现unavailable-replicas
+   register-with-eureka: false # 一定要设置为true或者不写，否则会出现unavailable-replicas
+   serviceUrl:
+      defaultZone: http://server2:8762/eureka/
