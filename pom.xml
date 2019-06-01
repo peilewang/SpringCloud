@@ -16,6 +16,10 @@
         <module>microservice-eureka-feign</module>
         <module>microservice-eureka-hystrix</module>
         <module>microservice-hystrix-dashboard</module>
+        <module>microservice-hystrix-turbine</module>
+        <module>microservice-feign-hystrix</module>
+        <module>microservic-econfig-server</module>
+        <module>microservice-config-client</module>
     </modules>
     <dependencies>
         <dependency>
