@@ -7,13 +7,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="microserice-eureka-order" />
+        <module name="microservic-config-server" />
+        <module name="microservice-api-gateway" />
+        <module name="microservice-config-client" />
         <module name="microservice-eureka-feign" />
         <module name="microservice-eureka-hystrix" />
         <module name="microservice-eureka-ribbon" />
         <module name="microservice-eureka-server" />
         <module name="microservice-eureka-user" />
+        <module name="microservice-feign-hystrix" />
         <module name="microservice-hystrix-dashboard" />
+        <module name="microservice-hystrix-turbine" />
+        <module name="microservice-sleuth-consumer" />
+        <module name="microservice-zipkin-user" />
+        <module name="microservice-zipkin-user02" />
+        <module name="microservice_zipkin_service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-config-server" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

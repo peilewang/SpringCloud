@@ -15,7 +15,9 @@ zuul:
    routes:
      user:
  # 可以随便写，在zuul上⾯唯⼀即可；当这⾥的值 = service-id时，service-id可 以不写。
-       path: /user/**
+     #   path: /user/**
+     path: /movie/**
 #想要映射到的路径service-id: microse
-       service-id: microserice-eureka-user
+       service-id: microservice-eureka-hystrix
+   ignored-services: microserice-eureka-user
 # Eureka中的serviceId2.6 API Gateway
