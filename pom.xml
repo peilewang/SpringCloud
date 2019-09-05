@@ -16,6 +16,15 @@
         <module>microservice-eureka-feign</module>
         <module>microservice-eureka-hystrix</module>
         <module>microservice-hystrix-dashboard</module>
+        <module>microservice-hystrix-turbine</module>
+        <module>microservice-feign-hystrix</module>
+        <module>microservice-config-server</module>
+        <module>microservice-config-client</module>
+        <module>microservice-api-gateway</module>
+        <module>microservice-sleuth-consumer</module>
+        <module>microservice_zipkin_service</module>
+        <module>microservice-zipkin-user</module>
+        <module>microservice-zipkin-user02</module>
     </modules>
     <dependencies>
         <dependency>

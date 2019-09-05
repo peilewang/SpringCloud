@@ -1,9 +1,8 @@
-package com.itheima.springcloud.feign.component;
+package com.itheima.springcloud.feign.hystrix.service;
 
-import com.itheima.springcloud.feign.entity.User;
+import com.itheima.springcloud.feign.hystrix.entity.User;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
-import com.itheima.springcloud.feign.service.UserFeignClient;
 
 @Component
  public class HystrixClientFallback implements UserFeignClient {

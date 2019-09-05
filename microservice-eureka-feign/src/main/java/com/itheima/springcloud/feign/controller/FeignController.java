@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 
 @RestController
 public class FeignController {
-    @Resource
+    @Autowired
     private UserFeignClient userFeignClient;
     @GetMapping("feign/{id}")
     public User findByIdFeign(@PathVariable Long id) {

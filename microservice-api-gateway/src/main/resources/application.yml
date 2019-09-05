@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: microservice-api-gateway
+server:
+  port: 8050
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: gateway
+# 下⾯整个树都⾮必须，如果不配置，将默认使⽤ http://GATEWAY:GATEWAY_PORT/想要访问的Eureka服务id的⼩写/** 路由到：http://想要访问的Eureka
+    #服务id的⼩写:该服务端⼝/**
+zuul:
+   routes:
+     user:
+ # 可以随便写，在zuul上⾯唯⼀即可；当这⾥的值 = service-id时，service-id可 以不写。
+     #   path: /user/**
+     path: /movie/**
+#想要映射到的路径service-id: microse
+       service-id: microservice-eureka-hystrix
+   ignored-services: microserice-eureka-user
+# Eureka中的serviceId2.6 API Gateway
