@@ -9,3 +9,9 @@ eureka:
 spring:
   application:
     name: microserice-eureka-user
+swagger:
+  #配置Swagger扫包范围
+  base-package: com.itheima.springcloud.controller
+  # 需要处理的基础URL规则，默认：/**
+  base-path: /*
+

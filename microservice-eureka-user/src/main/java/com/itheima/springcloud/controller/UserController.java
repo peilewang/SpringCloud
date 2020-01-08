@@ -21,14 +21,15 @@ public class UserController {
      * @param id
      * @return user信息
      */
-    @GetMapping("/{id}")
+    //Swagger2 解决 java.lang.NumberFormatException异常
+   /* @GetMapping("/{id}")
     public User findById(@PathVariable Long id) {
         User user=new User();
         user.setAge(12);
         user.setId(1l);
         user.setUsername("plw");
         return user;
-    }
+    }*/
     @GetMapping("/instance-info")
     public ServiceInstance showInfo() {
         ServiceInstance localServiceInstance = this.discoveryClient.getLocalServiceInstance();
