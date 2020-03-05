@@ -1,5 +1,8 @@
 package com.itheima.springcloud.entity;
 
+import lombok.Data;
+
+@Data
 public class User {
     public Long getId() {
         return id;
