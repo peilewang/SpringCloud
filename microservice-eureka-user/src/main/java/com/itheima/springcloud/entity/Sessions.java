@@ -1,4 +1,4 @@
-package com.itheima.springcloud.dao;
+package com.itheima.springcloud.entity;
 
 import java.util.Date;
 
