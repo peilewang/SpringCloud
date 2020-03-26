@@ -1,6 +1,6 @@
 package com.itheima.springcloud.mapper;
 
-import com.itheima.springcloud.dao.Sessions;
+import com.itheima.springcloud.entity.Sessions;
 import com.itheima.springcloud.dao.SessionsExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
