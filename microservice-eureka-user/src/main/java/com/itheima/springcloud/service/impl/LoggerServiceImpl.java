@@ -1,6 +1,6 @@
 package com.itheima.springcloud.service.impl;
 
-import com.itheima.springcloud.dao.Sessions;
+import com.itheima.springcloud.entity.Sessions;
 import com.itheima.springcloud.mapper.SessionsMapper;
 import com.itheima.springcloud.service.LoggerService;
 import lombok.extern.slf4j.Slf4j;
