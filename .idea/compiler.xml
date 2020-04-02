@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,6 +10,7 @@
         <module name="microserice-eureka-order" />
         <module name="microservic-config-server" />
         <module name="microservice-api-gateway" />
+        <module name="microservice-config-client" />
         <module name="microservice-config-client" />
         <module name="microservice-eureka-feign" />
         <module name="microservice-eureka-hystrix" />
@@ -18,6 +20,7 @@
         <module name="microservice-feign-hystrix" />
         <module name="microservice-hystrix-dashboard" />
         <module name="microservice-hystrix-turbine" />
+        <module name="microservice-hystrix-turbine" />
         <module name="microservice-sleuth-consumer" />
         <module name="microservice-zipkin-user" />
         <module name="microservice-zipkin-user02" />
@@ -25,7 +28,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="microservice-api-gateway" target="1.8" />
       <module name="microservice-config-server" target="1.8" />
+      <module name="microservice-sleuth-consumer" target="1.8" />
+      <module name="microservice-zipkin-user" target="1.8" />
+      <module name="microservice-zipkin-user02" target="1.8" />
+      <module name="microservice_zipkin_service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

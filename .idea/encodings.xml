@@ -6,6 +6,8 @@
     <file url="file://$PROJECT_DIR$/microservic-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-api-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservic-econfig-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-eureka-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-eureka-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-eureka-ribbon" charset="UTF-8" />
@@ -18,5 +20,6 @@
     <file url="file://$PROJECT_DIR$/microservice-zipkin-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice-zipkin-user02" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservice_zipkin_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-hystrix-turbine" charset="UTF-8" />
   </component>
 </project>
